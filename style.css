@@ -1,0 +1,93 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f9ff;
+  color: #1c1c1c;
+}
+header {
+  text-align: center;
+  padding: 2rem 1rem;
+  background: linear-gradient(to right, #cfe7ff, #eaf6ff);
+  border-bottom: 1px solid #b3d8ff;
+}
+.logo {
+  width: 80px;
+  margin-bottom: 1rem;
+}
+h1 {
+  font-size: 2.8rem;
+  color: #003366;
+  margin: 0.5rem 0;
+}
+.description {
+  font-size: 1.2rem;
+  color: #333;
+}
+.services {
+  padding: 2rem;
+  text-align: center;
+}
+.services h2 {
+  font-size: 2rem;
+  color: #003366;
+  margin-bottom: 1.5rem;
+}
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  max-width: 600px;
+  margin: 1rem auto;
+  box-shadow: 0 6px 15px rgba(0, 51, 102, 0.1);
+}
+.card h3 {
+  color: #0057a0;
+}
+.contact {
+  background: #e6f2ff;
+  padding: 2rem;
+}
+.contact h2 {
+  text-align: center;
+  color: #003366;
+}
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+button {
+  background-color: #0057a0;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #003f7f;
+}
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #003366;
+  color: white;
+  font-size: 0.9rem;
+}
